@@ -1,17 +1,31 @@
 # WALL-E - AI-Powered Document Workspace
-
+<p align="center">
+    <img src="public/github/1.png" width="600">
+  </p>
+  
 WALL-E is a fully-featured production-ready document workspace with AI capabilities, real-time collaboration, publishing, guest mode, and modern UI.
 
-## Features
-
+## Website demo
+<p align="center">
+  <a href="https://drive.google.com/file/d/1pgsp6nrcx1j3eDdtMuPxso-PAlLdrNRG/view">
+    <img src="public/github/4.png" width="600">
+  </a>
+</p>
 ### Core Features
 
 - ✅ **Document Management** - Create, read, update, archive documents with infinite hierarchical nesting and soft delete
 - ✅ **Rich Editor** - BlockNote with full formatting, multiple content blocks, and drag-and-drop cover images
-- ✅ **AI Assistant** - Google Gemini 2.5 Flash integration with streaming responses and tool calling
+- ✅ **login page** - Google Gemini 2.5 Flash integration with streaming responses and tool calling
+
+    <img src="public/github/3.png" width="600">
+  
 - ✅ **Real-Time Database** - Convex real-time sync across all clients automatically
 - ✅ **Authentication** - Clerk OAuth/social login with JWT verification and guest mode
-- ✅ **File Storage** - EdgeStore integration for cover images and file management
+- ✅ **Responsive Site** - EdgeStore integration for cover images and file management
+
+   <img src="public/github/2.png" width="600">
+
+
 - ✅ **Publishing System** - Generate public URLs and share documents with read-only preview
 - ✅ **Trash & Recovery** - Soft delete with full recovery options for documents
 - ✅ **UI/UX** - Light/dark/system theme toggle, resizable sidebars, mobile responsive
