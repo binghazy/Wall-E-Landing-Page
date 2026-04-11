@@ -88,7 +88,7 @@ export function Navigation() {
               className={`rounded-full transition-all duration-500 ${isScrolled ? "bg-foreground hover:bg-foreground/90 text-background px-4 h-8 text-xs" : "bg-white hover:bg-white/90 text-black px-6"}`}
               onClick={() =>
                 (window.location.href =
-                  "https://wall-e-notion-clone.vercel.app/?_vercel_share=KSlyMDZhitn9QwaKdbRJ2CPnfqc4t26G")
+                  "https://wall-e-notion-clone.vercel.app")
               }
             >
               Open workspace
