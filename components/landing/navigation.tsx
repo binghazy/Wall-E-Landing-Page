@@ -86,7 +86,10 @@ export function Navigation() {
             <Button
               size="sm"
               className={`rounded-full transition-all duration-500 ${isScrolled ? "bg-foreground hover:bg-foreground/90 text-background px-4 h-8 text-xs" : "bg-white hover:bg-white/90 text-black px-6"}`}
-              onClick={() => (window.location.href = "http://localhost:3000")}
+              onClick={() =>
+                (window.location.href =
+                  "https://wall-e-notion-clone.vercel.app/?_vercel_share=KSlyMDZhitn9QwaKdbRJ2CPnfqc4t26G")
+              }
             >
               Open workspace
             </Button>
@@ -161,7 +164,8 @@ export function Navigation() {
               className="flex-1 bg-foreground text-background rounded-full h-14 text-base"
               onClick={() => {
                 setIsMobileMenuOpen(false);
-                window.location.href = "http://localhost:3000";
+                window.location.href =
+                  "https://wall-e-notion-clone.vercel.app/?_vercel_share=KSlyMDZhitn9QwaKdbRJ2CPnfqc4t26G";
               }}
             >
               Open workspace

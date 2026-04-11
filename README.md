@@ -29,9 +29,9 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3002) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Sign-in redirects to [http://localhost:3000](http://localhost:3002) for local testing.
+Sign-in redirects to [http://localhost:3000](http://localhost:3000) for local testing.
 
 ## Tech Stack
 

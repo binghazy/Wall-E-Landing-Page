@@ -69,7 +69,8 @@ export function CtaSection() {
                     size="lg"
                     className="bg-foreground hover:bg-foreground/90 text-background px-8 h-14 text-base rounded-full group"
                     onClick={() =>
-                      (window.location.href = "http://localhost:3000")
+                      (window.location.href =
+                        "https://wall-e-notion-clone.vercel.app/?_vercel_share=KSlyMDZhitn9QwaKdbRJ2CPnfqc4t26G")
                     }
                   >
                     Open workspace

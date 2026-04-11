@@ -18,13 +18,15 @@ export default function SignInClient({
     const data = Object.fromEntries(formData.entries());
     console.log("WALL-E sign in submitted:", data);
     // Redirect to port 3000
-    window.location.href = "http://localhost:3000";
+    window.location.href =
+      "https://wall-e-notion-clone.vercel.app/?_vercel_share=KSlyMDZhitn9QwaKdbRJ2CPnfqc4t26G";
   };
 
   const handleGoogleSignIn = () => {
     console.log("WALL-E Google sign in clicked");
     // Redirect to port 3000
-    window.location.href = "http://localhost:3000";
+    window.location.href =
+      "https://wall-e-notion-clone.vercel.app/?_vercel_share=KSlyMDZhitn9QwaKdbRJ2CPnfqc4t26G";
   };
 
   const handleResetPassword = () => {
