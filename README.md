@@ -1,39 +1,69 @@
-# WALL-E - AI-Powered Document Workspace
-<p align="center">
-    <img src="public/github/1.png" width="600">
-  </p>
-  
-WALL-E is a fully-featured production-ready document workspace with AI capabilities, real-time collaboration, publishing, guest mode, and modern UI.
+# 🚀 WALL-E Landing Page
 
-## Website demo
+<p align="center">
+  <img src="public/github/1.png" width="600">
+</p>
+
+WALL-E Landing Page is a modern, responsive, and visually engaging front-end experience designed to showcase a powerful AI-powered document workspace. It focuses on delivering a clean UI, smooth interactions, and clear product storytelling.
+
+---
+
+## 🌐 Video Demo
+
 <p align="center">
   <a href="https://drive.google.com/file/d/1pgsp6nrcx1j3eDdtMuPxso-PAlLdrNRG/view">
     <img src="public/github/4.png" width="600">
   </a>
 </p>
-### Core Features
 
-- ✅ **Document Management** - Create, read, update, archive documents with infinite hierarchical nesting and soft delete
-- ✅ **Rich Editor** - BlockNote with full formatting, multiple content blocks, and drag-and-drop cover images
-- ✅ **login page** - Google Gemini 2.5 Flash integration with streaming responses and tool calling
+---
 
-    <img src="public/github/3.png" width="600">
-  
-- ✅ **Real-Time Database** - Convex real-time sync across all clients automatically
-- ✅ **Authentication** - Clerk OAuth/social login with JWT verification and guest mode
-- ✅ **Responsive Site** - EdgeStore integration for cover images and file management
+## ✨ Key Features
 
-   <img src="public/github/2.png" width="600">
+* 🎯 **Modern UI Design** – Clean, minimal interface inspired by Notion-style layouts
+* 📱 **Fully Responsive** – Optimized for desktop, tablet, and mobile devices
+* 🎨 **Interactive Sections** – Smooth scrolling and engaging content blocks
+* 🌙 **Theme Support** – Light / Dark mode toggle
+* ⚡ **Fast Performance** – Built with optimized frontend architecture
+* 🧩 **Component-Based Structure** – Reusable and scalable UI components
 
+<p align="center">
+  <img src="public/github/2.png" width="600">
+</p>
 
-- ✅ **Publishing System** - Generate public URLs and share documents with read-only preview
-- ✅ **Trash & Recovery** - Soft delete with full recovery options for documents
-- ✅ **UI/UX** - Light/dark/system theme toggle, resizable sidebars, mobile responsive
-- ✅ **Collaboration** - Real-time team collaboration with live updates and no manual refresh
+---
 
-## Getting Started
+## 🧠 Purpose
 
-First, run the development server:
+This landing page is designed to:
+
+* Showcase the capabilities of the WALL-E platform
+* Present features in a clear and attractive way
+* Improve user engagement and first impression
+* Serve as a conversion-focused entry point for users
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework**: Next.js (React)
+* **Styling**: Tailwind CSS
+* **UI Components**: Shadcn/ui
+* **Design Approach**: Responsive + Component-driven
+
+---
+
+## 📂 Project Structure Highlights
+
+* Reusable UI components
+* Modular sections (Hero, Features, CTA, etc.)
+* Clean layout and scalable architecture
+
+---
+
+## ▶️ Getting Started
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -43,103 +73,21 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-Sign-in redirects to [http://localhost:3000](http://localhost:3000) for local testing.
+```
+http://localhost:3000
+```
 
-## Tech Stack
+---
 
-- **Framework**: Next.js 16 (React)
-- **Database**: Convex (real-time backend)
-- **Auth**: Clerk
-- **Editor**: BlockNote
-- **AI**: Google Gemini 2.5 Flash
-- **File Storage**: EdgeStore
-- **Styling**: Tailwind CSS
-- **UI Components**: Shadcn/ui
+## 🎯 What Makes It Stand Out
 
-## Features Breakdown
+* Strong visual hierarchy
+* Smooth user experience
+* Clean animations and layout transitions
+* Built with real-world production practices
 
-### 1. Document Management
+---
 
-- Create, read, update, archive documents
-- Infinite hierarchical nesting
-- Soft delete with trash system
-- Real-time synchronization across clients
-- Full-text search functionality
-
-### 2. Rich Editor
-
-- BlockNote editor with full formatting support
-- Multiple content block types (paragraphs, checklists, tables)
-- Cover image management with drag-and-drop upload
-- Emoji icon picker for visual identification
-- Inline title editing
-
-### 3. AI Assistant
-
-- Google Gemini 2.5 Flash integration
-- Streaming chat responses
-- AI tool calling (can insert content automatically)
-- Extended thinking support
-- Mobile-responsive sidebar (320-560px resizable)
-- Debounced updates
-
-### 4. Authentication
-
-- Clerk OAuth/social login
-- JWT-based user verification
-- Role-based access control
-- Guest mode with local storage persistence
-
-### 5. Real-Time Database
-
-- Convex real-time sync
-- Live title, content, and metadata updates
-- Automatic document tree refresh
-- No manual refresh needed
-
-### 6. File Storage
-
-- EdgeStore integration
-- Cover image uploads with validation
-- File replacement and deletion
-- Public file bucket access
-
-### 7. Publishing System
-
-- Publish documents to generate public URLs
-- Read-only preview mode
-- Share with copy URL button
-- Unpublish capability
-
-### 8. Trash & Recovery
-
-- Soft delete with recovery options
-- Permanent deletion
-- Archive/restore hierarchy
-- Trash box filtering
-
-### 9. Guest Mode
-
-- No login required
-- Local browser storage persistence
-- Full editor and AI access
-- Auto-generated document IDs
-
-### 10. UI/UX Features
-
-- Light/dark/system theme toggle
-- Resizable sidebars (drag-to-resize)
-- Mobile responsive design
-- Expandable document tree
-- Keyboard shortcuts (Cmd+K search)
-- Toast notifications
-- Loading skeletons
-
-## Learn More
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Convex Documentation](https://docs.convex.dev)
-- [Clerk Documentation](https://clerk.com/docs)
-- [BlockNote Documentation](https://www.blocknote.dev)
+If you want, I can make it **more Upwork-oriented (client-focused with impact + metrics)** or **more GitHub-style (developer-focused)** — just tell me.
